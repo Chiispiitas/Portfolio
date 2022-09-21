@@ -1060,6 +1060,19 @@ section {
 .contact .info .email,
 .contact .info .phone {
   margin-top: 40px;
+  margin-left: 0;
+}
+
+@media (min-width: 992px) {
+  .contact .info {
+    display: flex;
+  }
+
+  .contact .info .email,
+  .contact .info .phone {
+    margin-top: 0;
+    margin-left: 40px;
+  }
 }
 
 .contact .info .email:hover i,
